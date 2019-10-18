@@ -1,0 +1,15 @@
+[INFO][general_post.cpp 164] Success to deal file=/home/HwHiAiUser/img1.jpg.
+[INFO][general_post.cpp 165] Top index and confidence:339:0.969727,351:0.004707,253:0.004387,350:0.002131,340:0.001879
+HwHiAiUser@davinci-mini:~/HIAI_PROJECTS/ascend_workspace/classification/out$ python3 run_classification.py -m ~/resnet50.om -w 224 -h 224 -i ~/img2.jpg -n 5
+[INFO][general_post.cpp 164] Success to deal file=/home/HwHiAiUser/img2.jpg.
+[INFO][general_post.cpp 165] Top index and confidence:293:0.999023,288:0.000904,290:0.000007,353:0.000005,340:0.000004
+HwHiAiUser@davinci-mini:~/HIAI_PROJECTS/ascend_workspace/classification/out$ python3 run_classification.py -m ~/resnet50.om -w 224 -h 224 -i ~/img3.jpg -n 5
+[INFO][general_post.cpp 164] Success to deal file=/home/HwHiAiUser/img3.jpg.
+[INFO][general_post.cpp 165] Top index and confidence:331:0.946289,330:0.053406,332:0.000071,335:0.000012,322:0.000011
+HwHiAiUser@davinci-mini:~/HIAI_PROJECTS/ascend_workspace/classification/out$ python3 run_classification.py -m ~/resnet50.om -w 224 -h 224 -i ~/img4.jpg -n 5
+[INFO][general_post.cpp 164] Success to deal file=/home/HwHiAiUser/img4.jpg.
+[INFO][general_post.cpp 165] Top index and confidence:281:0.493652,285:0.482422,282:0.021194,287:0.002216,292:0.000592
+HwHiAiUser@davinci-mini:~/HIAI_PROJECTS/ascend_workspace/classification/out$ python3 run_classification.py -m ~/resnet50.om -w 224 -h 224 -i ~/img5.png -n 5
+[INFO][general_post.cpp 164] Success to deal file=/home/HwHiAiUser/img5.png.
+[INFO][general_post.cpp 165] Top index and confidence:259:0.921875,261:0.054535,676:0.006115,260:0.004108,283:0.002510
+HwHiAiUser@davinci-mini:~/HIAI_PROJECTS/ascend_workspace/classification/out$ 
